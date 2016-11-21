@@ -10,7 +10,7 @@
 
     "email": {
         "sender": "YourSender NameHere",
-        "subject": "Timesheet for $project" // $project is replaced by the project name
+        "subject": "Timesheet for $project"
     },
 
     "mailadresses": {
