@@ -1,0 +1,25 @@
+{
+  "name": "time-sheet-mailer",
+  "version": "0.1.0",
+  "description": "script to automatically mail timesheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heikomat/time-sheet-mailer.git"
+  },
+  "keywords": [
+    "time",
+    "sheet",
+    "mail",
+    "mailer"
+  ],
+  "author": "Heiko Mathes <heiko.mathes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heikomat/time-sheet-mailer/issues"
+  },
+  "homepage": "https://github.com/heikomat/time-sheet-mailer#readme"
+}
