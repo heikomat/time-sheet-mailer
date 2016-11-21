@@ -15,5 +15,38 @@ If you use google, and **do** have 2FA, you need to create an app-password [here
 ### Testing the config
 run `tsm dryrun`
 
-### actually sending the time-sheets
+### Sending the time-sheets
 run `tsm run`
+
+### Config-file
+The config-file has the following format:
+```JavaScript
+{
+    "directory": "/path/to/your/timesheets",
+
+    "smtp": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "username": "YourSMTPUsernameHere",
+        "password": "YourSMTPPasswordHere"
+    },
+
+    "email": {
+        "sender": "YourSender NameHere",
+        "subject": "Timesheet for $project"
+    },
+
+    "mailadresses": {
+        "boss": "boss@mycompany.com",
+        "team": "team@mycompany.com",
+        "accounting": "accounting@mycompany.com"
+    },
+
+    "projects": {
+        "CoolProject": ["team"],
+        "InternalProject": ["boss", "team"],
+        "YourprojectNameHere": ["accounting", "boss"]
+    }
+}
+```
+
