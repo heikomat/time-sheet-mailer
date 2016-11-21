@@ -1,5 +1,5 @@
 ### time-sheet-mailer
-A node-module to automatically send daily time-sheets
+A node-module to automatically send excel time-sheets
 
 ### Installation
 run `npm install -g time-sheet-mailer`
