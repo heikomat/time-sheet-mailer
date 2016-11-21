@@ -1,6 +1,6 @@
 {
   "name": "time-sheet-mailer",
-  "version": "1.0.0-pre4",
+  "version": "1.0.0",
   "description": "script to automatically mail timesheets",
   "main": "lib/tsm.js",
   "bin": {
