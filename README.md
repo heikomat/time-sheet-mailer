@@ -2,13 +2,24 @@
 A node-module to automatically send excel time-sheets
 
 ### Installation
-run `npm install -g time-sheet-mailer`
+```bash
+npm install -g time-sheet-mailer
+```
 
 ### Configuration
-run `tsm config` and edit the existing demo-config according to your needs.  
-`$project` in email.subject will be replaced by the projectname.  
+```bash
+tsm config
+```
+edit the existing demo-config according to your needs.  
+`$project` in email.subject will be replaced by the projectname. 
 
+This will try to open the tsm-config with your prefered editor, but falls back to vim
+if it can't find one. You can also specify the editor to use in an environment-variable, like so:
+```bash
+EDITOR=nano tsm config
+```
 
+#### google-caveats
 If you use google, and **don't** have 2FA, you might need to allow less secure apps  [here](https://www.google.com/settings/security/lesssecureapps)  
 If you use google, and **do** have 2FA, you need to create an app-password [here](https://security.google.com/settings/security/apppasswords)
 
