@@ -13,7 +13,7 @@ If you use google, and **don't** have 2FA, you might need to allow less secure a
 If you use google, and **do** have 2FA, you need to create an app-password [here](https://security.google.com/settings/security/apppasswords)
 
 ### Testing the config
-run `tsm dryrun`
+run `tsm dryrun`. This will not actually send emails, but show you what would be sent.
 
 ### Sending the time-sheets
 run `tsm run`
